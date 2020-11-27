@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cover_yourself_in_oil",
+  "version": "${version}",
+
+  "name": "Cover Yourself in Oil",
+  "description": "Oil floats on water. 1) Wait for it to rain 2) Cover yourself in oil 3) Fly",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "sources": "https://github.com/Nuclearfarts/cover-yourself-in-oil"
+  },
+
+  "license": "LGPL3",
+  "icon": "assets/cover_yourself_in_oil/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.nuclearfarts.oil.OilMod"
+    ]
+  },
+  "mixins": ["coveryourselfinoil.mixins.json"]
+}
